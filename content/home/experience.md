@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Research Experience"
 subtitle = ""
 
 # Date format for experience
@@ -18,27 +18,38 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Research Intern"
+  company = "Concordia University"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  location = "Montreal, Canada"
+  date_start = "2018-03-20"
+  date_end = "2018-06-30"
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  *  Date collection and processing of Satellite images (LandSat8, MODIS) with Google earth engine
+  *  In-field deployment of PHENOCAM in agriculture land
+  *  Statistical analysis of on-site PHENOCAM data with R programming
+  *  Estimation of vegetation growing season peaks and their climate change 
+
+
   """
+  
+  
 
 [[experience]]
-  title = "Professor"
+  title = "Student Research Assistant"
   company = "University X"
   company_url = ""
   location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  date_start = "2017-07-01"
+  date_end = "2019-06-01"
+  description = """
+  Responsibilities include:
+  
+  * Data Collection, cleaning and basic statistical analysis of climate data from multiple sources (CMA, IGRA, NCEP/NCAR, NCEP/DOE, GIMMS) using Python API, R and Fortran Programming;
+  * Scientific Visualization with ArcGIS and Origin etc. software
+  
+  """
 
 +++

@@ -21,16 +21,38 @@ subtitle = ""
   description = "90%"
   
 [[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Python"
+  description = "90%"
+  
+[[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
   description = "100%"  
   
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Machine Learning"
+  description = "40%" 
+  
+[[feature]]
+  name = "Fortran Programming"
+  description = "80%" 
+  
+[[feature]]
+  name = "Google Earth Engine"
+  description = "60%" 
+
+[[feature]]
+  name = "ArcGIS"
+  description = "100%"  
+  
+# [[feature]]
+#   icon = "camera-retro"
+#   icon_pack = "fas"
+#   name = "Photography"
+#   description = "10%"
 
 # Uncomment to use emoji icons.
 # [[feature]]
